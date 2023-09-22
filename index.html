@@ -85,14 +85,23 @@
 						<img src="img/logo.png" class="img-fluid" />
 					</div>
 
-					<div class="col-12 col-sm"></div>
+					<div class="col-12 col-sm">
+						<button
+							class="btn btn-lg"
+							type="submit"
+							name="Reserve"
+							style="background-color: orange"
+						>
+							Reserve Table
+						</button>
+					</div>
 				</div>
 			</div>
 		</header>
 
 		<div class="container">
 			<div class="row row-content align-items-center">
-				<div class="media">
+				<div class="media col-12 col-sm-10">
 					<img
 						class="d-flex mr-3 img-thumbnail align-self-center"
 						src="img/uthappizza.png"
@@ -116,25 +125,37 @@
 					</div>
 				</div>
 
-				<div class="col-12 col-sm-4 col-md-3">
-					<h3 class="col-12 col-sm-4 order-sm-last col-md-3">
-						Our Lipsmacking Culinary Creations
-					</h3>
+				<div class="col-12 col-sm-2">
+					<h3>Our Lipsmacking Culinary Creations</h3>
 				</div>
 			</div>
 
 			<div class="row row-content align-items-center">
-				<div class="col-12 col-sm-4 col-md-3">
+				<div class="col-12 col-sm-3">
 					<h3>This Month's Promotions</h3>
 				</div>
-				<div class="col col-sm col-md">
-					<h2>Weekend Grand Buffet</h2>
-					<p>
-						Featuring mouthwatering combinations with a choice of
-						five different salads, six enticing appetizers, six main
-						entrees and five choicest desserts. Free flowing bubbly
-						and soft drinks. All for just $19.99 per person
-					</p>
+				<div class="col-12 col-sm-9">
+					<div class="row">
+						<div class="col-12 col-sm-10">
+							<h2>
+								Weekend Grand Buffet
+								<span class="badge badge-danger">NEW</span>
+							</h2>
+
+							<p class="d-none d-sm-block">
+								Featuring mouthwatering combinations with a
+								choice of five different salads, six enticing
+								appetizers, six main entrees and five choicest
+								desserts. Free flowing bubbly and soft drinks.
+								All for just $19.99 per person
+							</p>
+						</div>
+						<img
+							class="d-flex mr-3 img-thumbnail align-self-center"
+							src="img/buffet.png"
+							alt="Weekend Grand Buffet"
+						/>
+					</div>
 				</div>
 			</div>
 
@@ -162,6 +183,95 @@
 					<h3 class="col-12 col-sm-4 order-sm-last col-md-3">
 						Meet our Culinary Specialists
 					</h3>
+				</div>
+			</div>
+			<div class="container card col-md-8">
+				<h2
+					class="card-header"
+					style="background-color: orange; color: white"
+				>
+					Reserve a Table
+				</h2>
+				<div class="card-body">
+					<dl class="row">
+						<dt class="col-3">Number of Guest</dt>
+						<dd class="col-9">
+							<input
+								type="radio"
+								id="options"
+								name="option1"
+								value="options"
+							/>
+							<label for="option1">1</label>
+							<input
+								type="radio"
+								id="option2"
+								name="options"
+								value="option2"
+							/>
+							<label for="option2">2</label>
+
+							<input
+								type="radio"
+								id="option3"
+								name="options"
+								value="option3"
+							/>
+							<label for="option3">3</label>
+
+							<input
+								type="radio"
+								id="option4"
+								name="options"
+								value="option1"
+							/>
+							<label for="option1">4</label>
+
+							<input
+								type="radio"
+								id="optio5n"
+								name="options"
+								value="option2"
+							/>
+							<label for="option2">5</label>
+
+							<input
+								type="radio"
+								id="option6"
+								name="options"
+								value="option3"
+							/>
+							<label for="option3">6</label>
+						</dd>
+						<dt class="col-3">Date and Time</dt>
+						<dd class="col-9">
+							<input
+								class="col-3"
+								type="text"
+								name="Date"
+								id="Date"
+								placeholder="Date"
+							/>
+							<input
+								class="col-3"
+								type="text"
+								name="Time"
+								id="Time"
+								placeholder="Time"
+							/>
+						</dd>
+						<dt class="col-12">
+							<div class="col-6 text-center">
+								<button
+									class="btn btn-primary btn-lg"
+									type="submit"
+									name="Reserve"
+								>
+									Reserve
+								</button>
+							</div>
+						</dt>
+					</dl>
 				</div>
 			</div>
 		</div>
